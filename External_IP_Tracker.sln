@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IP_Address_Monitor", "IP_Address_Monitor\IP_Address_Monitor.csproj", "{834533A6-2CC3-4042-8CEA-282295694A18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IP_Address_Tracker_Console", "IP_Address_Tracker_Console\IP_Address_Tracker_Console.csproj", "{17537487-53CC-463F-918B-73C34FC3A981}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{834533A6-2CC3-4042-8CEA-282295694A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834533A6-2CC3-4042-8CEA-282295694A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834533A6-2CC3-4042-8CEA-282295694A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834533A6-2CC3-4042-8CEA-282295694A18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17537487-53CC-463F-918B-73C34FC3A981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17537487-53CC-463F-918B-73C34FC3A981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17537487-53CC-463F-918B-73C34FC3A981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17537487-53CC-463F-918B-73C34FC3A981}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F38A363B-0F10-4AC6-9C9D-8161341C639C}
+	EndGlobalSection
+EndGlobal

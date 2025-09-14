@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "IP_Address_Tracker_Console": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
