@@ -22,7 +22,7 @@ namespace IP_Address_Monitor
 
         public async Task InitializeAsync()
         {
-            LastKnownIpAddress = await IpFetcher.GetExternalIpAsync();
+            LastKnownIpAddress = await IpFetcher.GetPublicIpAsync();
         }
 
     

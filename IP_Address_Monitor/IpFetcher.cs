@@ -12,7 +12,7 @@ namespace IP_Address_Monitor
 {
     internal class IpFetcher
     {
-        public static async Task<string> GetExternalIpAsync()
+        public static async Task<string> GetPublicIpAsync()
         {
             using var client = new HttpClient();
             try
@@ -29,8 +29,8 @@ namespace IP_Address_Monitor
 
         private static async Task Main()
         {
-            string externalIp = await GetExternalIpAsync();
-            Console.WriteLine($"External IP: {externalIp}");
+            string publicIp = await GetPublicIpAsync();
+            Console.WriteLine($"Public IP: {publicIp}");
         }
 
     }
