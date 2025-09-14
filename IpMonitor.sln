@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IP_Address_Monitor", "IP_Address_Monitor\IP_Address_Monitor.csproj", "{834533A6-2CC3-4042-8CEA-282295694A18}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpMonitor.Worker", "IpMonitor.Worker\IpMonitor.Worker.csproj", "{834533A6-2CC3-4042-8CEA-282295694A18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IP_Address_Tracker_Console", "IP_Address_Tracker_Console\IP_Address_Tracker_Console.csproj", "{17537487-53CC-463F-918B-73C34FC3A981}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IpMonitor.Cli", "IpMonitor.Cli\IpMonitor.Cli.csproj", "{17537487-53CC-463F-918B-73C34FC3A981}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
