@@ -16,8 +16,10 @@ namespace IP_Address_Monitor
                 if (_logger.IsEnabled(LogLevel.Information))
                 {
                     _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
+                    _logger.LogInformation("IP address is: {ip}", await IpFetcher.GetExternalIpAsync());
                 }
-                await Task.Delay(1000, stoppingToken);
+
+                await Task.Delay(5000, stoppingToken);
             }
         }
     }

@@ -12,25 +12,26 @@ namespace IP_Address_Monitor
 {
     internal class IpFetcher
     {
-        static async Task<string> GetExternalIpAsync()
-    {
-        using var client = new HttpClient();
-        try
+        public static async Task<string> GetExternalIpAsync()
         {
-            // This service returns your public IP as plain text
-            string ip = await client.GetStringAsync("https://api.ipify.org");
-            return ip.Trim();
+            using var client = new HttpClient();
+            try
+            {
+                // This service returns your public IP as plain text
+                string ip = await client.GetStringAsync("https://icanhazip.com/");
+                return ip.Trim();
+            }
+            catch (HttpRequestException)
+            {
+                return "Unable to retrieve IP. Check your internet connection.";
+            }
         }
-        catch (HttpRequestException)
+
+        private static async Task Main()
         {
-            return "Unable to retrieve IP. Check your internet connection.";
+            string externalIp = await GetExternalIpAsync();
+            Console.WriteLine($"External IP: {externalIp}");
         }
-    }
-        static async Task Main()
-    {
-        string externalIp = await GetExternalIpAsync();
-        Console.WriteLine($"External IP: {externalIp}");
-    }
 
     }
 }
